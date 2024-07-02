@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 10px 5px;
+    padding: 5px;
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    font-weight: 300;
+    background-color: rgb(211, 250, 166);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container > img{
+    box-shadow: 8px 15px 13px rgba(17, 17, 17, 0.563);
+}
